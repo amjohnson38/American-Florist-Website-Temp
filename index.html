@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>American Florist</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- css section -->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Abhaya+Libre">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Courgette">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/4.12.0/bootstrap-social.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+	<!--external javascript libraries-->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+		crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<div id="home" class="background"></div>
+	<div id="wrapper">
+		<div class="overlay"></div>
+
+		<!-- Sidebar -->
+		<nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+			<ul class="nav sidebar-nav">
+				<li class="sidebar-brand">
+					<a href="#">Logo or Brand</a>
+				</li>
+				<li>
+					<a href="#home">Home</a>
+				</li>
+				<li>
+					<a href="#about">About</a>
+				</li>
+				<li>
+					<a href="#team">Team</a>
+				</li>
+				<li>
+					<a href="#services">Services</a>
+				</li>
+				<li>
+					<a href="#contact">Contact</a>
+				</li>
+			</ul>
+		</nav>
+
+		<!-- Image Content -->
+		<div id="page-content-wrapper">
+			<h3>Menu</h3>
+			<button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+                <span class="hamb-top"></span>
+    			<span class="hamb-middle"></span>
+				<span class="hamb-bottom"></span>
+					</button>
+		</div>
+	</div>
+	<div id="content-wrapper">
+		<div class="businessNameContainer">
+			<h1 id="businessName">American Florist</h1>
+		</div>
+		<div class="businessNameContainer">
+			<span><button class="call-to-action"> Our Services </button></span>
+			<span><button class="call-to-action"> Call Us </button></span>
+		</div>
+		<div id="aboutContainer">
+			<h1 id="about" class="header">ABOUT</h1>
+			<div id="aboutState">
+				<p id="aboutInfo">Since our first day of business in 2014, we have strived to create sentiments through flowers for our customers. <br>Our
+					team works diligently to meet the needs of our customers. <br> We pride ourselves on delivering beautiful bouquets and
+					gifts that you are sure to love. </p>
+			</div>
+			<div id="team">
+				<img id="cara" class="teamMembers" src="http://res.cloudinary.com/angiemjohnson/image/upload/v1479855859/pexels-photo-25845_ove54k.png"
+					alt="cara">
+				<img id="sarah" class="teamMembers" src="http://res.cloudinary.com/angiemjohnson/image/upload/v1479855851/girl-wreath-fairy-blonde-160456_phhkpy.png"
+					alt="sarah">
+				<img id="denise" class="teamMembers" src="http://res.cloudinary.com/angiemjohnson/image/upload/v1479855854/pexels-photo-29304_epdmuo.png"
+					alt="denise">
+				<img id="kristen" class="teamMembers" src="http://res.cloudinary.com/angiemjohnson/image/upload/v1479855849/pexels-photo-26180_higv4p.png"
+					alt="kristen">
+			</div>
+
+		</div>
+		<div>
+			<div id="carousel-parent">
+				<div class="carousel slide" data-ride="carousel" id="quote-carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+						<li data-target="#quote-carousel" data-slide-to="1"></li>
+						<li data-target="#quote-carousel" data-slide-to="2"></li>
+						<li data-target="#quote-carousel" data-slide-to="3"></li>
+					</ol>
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<blockquote>
+								<p class="quotes">"A flower can't blossom without sunshine, and man can't live without love" Max Muller </p>
+							</blockquote>
+						</div>
+						<div class="item">
+							<blockquote>
+								<p class="quotes">"Flowers...are a proud assertion that a ray of beauty outvalues all the utilities of the world." Ralph Waldo Emerson</p>
+							</blockquote>
+						</div>
+						<div class="item">
+							<blockquote>
+								<p class="quotes">"I must have flowers, always, and always." Claude Monet</p>
+							</blockquote>
+						</div>
+						<div class="item">
+							<blockquote>
+								<p class="quotes">"In joy or sadness flowers are our constant friends." Kakuzo Okakura</p>
+							</blockquote>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="serviceContainer">
+			<h1 class="header">SERVICES</h1>
+			<div id="services">
+				<div class="service-details">
+					<!-- Trust icon by Icons8 -->
+					<img class="icons" src="https://maxcdn.icons8.com/iOS7/PNG/75/Business/trust-75.png" title="Trust" width="75">
+					<p class="icon-descript">You can trust us to meet your needs. <br> Each and every order is handled with <br> care and attention to detail. </p>
+				</div>
+				<div class="service-details">
+					<!-- Delivery icon by Icons8 -->
+					<img class="icons" src="https://maxcdn.icons8.com/iOS7/PNG/75/Ecommerce/delivery-75.png" title="Delivery" width="75">
+					<p class="icon-descript">We make sure that your order is delivered <br> on time. If we fail to do so, rest assure <br> we'll work our hardest
+						to make things right. </p>
+				</div>
+				<div class="service-details">
+					<!-- Cheap 2 icon by Icons8 -->
+					<img class="icons" src="https://maxcdn.icons8.com/iOS7/PNG/75/Ecommerce/cheap_2-75.png" title="Cheap 2" width="75">
+					<p class="icon-descript">Our prices are very affordable and <br> our products have exception value. </p>
+				</div>
+				<div class="service-details">
+					<!-- Good Quality icon by Icons8 -->
+					<img class="icons" src="https://maxcdn.icons8.com/iOS7/PNG/75/Ecommerce/good_quality-75.png" title="Good Quality" width="75">
+					<p class="icon-descript">We only sell products that are of good quality.<br> We will never sell you anything that we wouldn't <br>want for ourselves.</p>
+				</div>
+			</div>
+		</div>
+		<div id="contactContainer">
+			<h1 class="header">CONTACT</h1>
+			<div id="contact">
+				<div id="map"></div>
+				<div class="contactAreaInfo">
+					<form>
+						Name:<br>
+						<input id="name" type="text" placeholder="John Doe">
+						Email:<br> 
+						<input id="email" type="type" placeholder="johndoe@blank.com">
+						Message:<br>
+						<textarea id="message" placeholder="your message"></textarea>
+						<input type="button" value="SEND">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>Website Created by AMJ Webservices <a href="https://icons8.com">Icon pack by Icons8</a></footer>
+	<script src="./js/main.js"></script>
+	<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1FObEr9zAI9lk2uJoRffyK6ioqeVBkpU&callback=initMap">
+    </script>
+</body>
+
+</html>

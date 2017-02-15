@@ -24,24 +24,29 @@ $(document).ready(function () {
 
   $('[data-toggle="offcanvas"]').click(function () {
     $('#wrapper').toggleClass('toggled');
+
   });
 
-  $('#quote-carousel').carousel({
-   
-    interval: 4000,
+  $('.quotes-wrapper').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
   });
+
 });
 
- window.initMap = function() {
-        var location = {lat: 36.728205, lng: -76.583562};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 15,
-          center: location,
-          scrollwheel: false
-          
-        });
-        var marker = new google.maps.Marker({
-          position: location,
-          map: map
-        });
-      }
+
+window.initMap = function () {
+  var location = { lat: 36.728205, lng: -76.583562 };
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 13,
+    center: location,
+    scrollwheel: false
+
+  });
+  var marker = new google.maps.Marker({
+    position: location,
+    map: map
+  });
+}

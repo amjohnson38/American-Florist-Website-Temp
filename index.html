@@ -13,113 +13,105 @@
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Courgette">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/4.12.0/bootstrap-social.min.css">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"/>
 	<!--external javascript libraries-->
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
 		crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-	<div id="home" class="background"></div>
-	<div id="wrapper">
-		<div class="overlay"></div>
+	<div class="site-wrapper">
+		<div id="home" class="background"></div>
+		<div id="wrapper">
+			<div class="overlay"></div>
+			<!-- Sidebar -->
+			<nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+				<ul class="nav sidebar-nav">
+					<li class="sidebar-brand">
+						<a href="#">AmF</a>
+					</li>
+					<li>
+						<a href="#home">Home</a>
+					</li>
+					<li>
+						<a href="#about">About</a>
+					</li>
+					<li>
+						<a href="#team">Team</a>
+					</li>
+					<li>
+						<a href="#services">Services</a>
+					</li>
+					<li>
+						<a href="#contact">Contact</a>
+					</li>
+				</ul>
+			</nav>
 
-		<!-- Sidebar -->
-		<nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
-			<ul class="nav sidebar-nav">
-				<li class="sidebar-brand">
-					<a href="#">Logo or Brand</a>
-				</li>
-				<li>
-					<a href="#home">Home</a>
-				</li>
-				<li>
-					<a href="#about">About</a>
-				</li>
-				<li>
-					<a href="#team">Team</a>
-				</li>
-				<li>
-					<a href="#services">Services</a>
-				</li>
-				<li>
-					<a href="#contact">Contact</a>
-				</li>
-			</ul>
-		</nav>
-
-		<!-- Image Content -->
-		<div id="page-content-wrapper">
-			<h3>Menu</h3>
-			<button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+			<!-- Image Content -->
+			<div id="page-content-wrapper">
+				<h3>Menu</h3>
+				<button type="button" class="hamburger is-closed" data-toggle="offcanvas">
                 <span class="hamb-top"></span>
     			<span class="hamb-middle"></span>
 				<span class="hamb-bottom"></span>
 					</button>
+			</div>
 		</div>
-	</div>
-	<div id="content-wrapper">
-		<div class="businessNameContainer">
-			<h1 id="businessName">American Florist</h1>
-		</div>
-		<div class="businessNameContainer">
-			<span><button class="call-to-action"> Our Services </button></span>
-			<span><button class="call-to-action"> Call Us </button></span>
+		<div id="content-wrapper">
+			<div class="businessNameContainer">
+				<h1 id="businessName">American Florist</h1>
+			</div>
+			<div class="businessNameContainer">
+				<span><button class="call-to-action"> Our Services </button></span>
+				<span><button class="call-to-action"> Call Us </button></span>
+			</div>
 		</div>
 		<div id="aboutContainer">
-			<h1 id="about" class="header">ABOUT</h1>
-			<div id="aboutState">
-				<p id="aboutInfo">Since our first day of business in 2014, we have strived to create sentiments through flowers for our customers. <br>Our
-					team works diligently to meet the needs of our customers. <br> We pride ourselves on delivering beautiful bouquets and
-					gifts that you are sure to love. </p>
-			</div>
-			<div id="team">
-				<img id="cara" class="teamMembers" src="http://res.cloudinary.com/angiemjohnson/image/upload/v1479855859/pexels-photo-25845_ove54k.png"
-					alt="cara">
-				<img id="sarah" class="teamMembers" src="http://res.cloudinary.com/angiemjohnson/image/upload/v1479855851/girl-wreath-fairy-blonde-160456_phhkpy.png"
-					alt="sarah">
-				<img id="denise" class="teamMembers" src="http://res.cloudinary.com/angiemjohnson/image/upload/v1479855854/pexels-photo-29304_epdmuo.png"
-					alt="denise">
-				<img id="kristen" class="teamMembers" src="http://res.cloudinary.com/angiemjohnson/image/upload/v1479855849/pexels-photo-26180_higv4p.png"
-					alt="kristen">
-			</div>
-
-		</div>
-		<div>
-			<div id="carousel-parent">
-				<div class="carousel slide" data-ride="carousel" id="quote-carousel">
-					<ol class="carousel-indicators">
-						<li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
-						<li data-target="#quote-carousel" data-slide-to="1"></li>
-						<li data-target="#quote-carousel" data-slide-to="2"></li>
-						<li data-target="#quote-carousel" data-slide-to="3"></li>
-					</ol>
-					<div class="carousel-inner" role="listbox">
-						<div class="item active">
-							<blockquote>
-								<p class="quotes">"A flower can't blossom without sunshine, and man can't live without love" Max Muller </p>
-							</blockquote>
-						</div>
-						<div class="item">
-							<blockquote>
-								<p class="quotes">"Flowers...are a proud assertion that a ray of beauty outvalues all the utilities of the world." Ralph Waldo Emerson</p>
-							</blockquote>
-						</div>
-						<div class="item">
-							<blockquote>
-								<p class="quotes">"I must have flowers, always, and always." Claude Monet</p>
-							</blockquote>
-						</div>
-						<div class="item">
-							<blockquote>
-								<p class="quotes">"In joy or sadness flowers are our constant friends." Kakuzo Okakura</p>
-							</blockquote>
-						</div>
-					</div>
+			<div id="about">
+				<h1 class="header">ABOUT</h1>
+				<div id="aboutState">
+					<p id="aboutInfo">Since our first day of business in 2014, we have strived to create sentiments through flowers for our customers. Our
+						team work diligently to meet the needs of our customers. We also pride ourselves on delivering beautiful arrangements and gifts
+						that you and the recipient are sure to love.</p>
 				</div>
 			</div>
 		</div>
-		<div id="serviceContainer">
+		<div id="team" class="flexContainer">
+			<div class="teamMembers">
+				<img id="cara" class="the-girls" src="./images/cara.png" alt="cara">
+			</div>
+			<div class="teamMembers">
+				<img id="sarah" class="the-girls" src="./images/sarah.png" alt="sarah">
+			</div>
+			<div class="teamMembers">
+				<img id="denise" class="the-girls" src="./images/denise.png" alt="denise">
+			</div>
+			<div class="teamMembers">
+				<img id="kristen" class="the-girls" src="./images/kristen.png" alt="kristen">
+			</div>
+		</div>
+
+		<section class="quotes-wrapper">
+		<div class="quotes">
+			<blockquote>"A flower can 't blossom without sunshine, and man can't live without love" <cite>Max Muller</cite></blockquote>
+		</div>
+		<div class="quotes">
+			<blockquote>"Flowers...are a proud assertion that a ray of beauty outvalues all the utilities of the world." <cite>Ralph Waldo Emerson</cite></blockquote>	
+		</div>
+		<div class="quotes">
+			<blockquote>"I must have flowers, always, and always." <cite>Claude Monet</cite></blockquote>
+		</div>
+		<div class="quotes">
+			<blockquote>"In joy or sadness flowers are our constant friends." <cite>Kakuzo Okakura</cite></blockquote>
+		</div>
+		<div class="quotes">
+			<blockquote>"Flowers always make people better, happier, and more helpful; they are sunshine, food and medicine to the mind." <cite>Luther Burbank</cite></blockquote>
+		</div>
+	</section>
+		<div class="serviceContainer">
 			<h1 class="header">SERVICES</h1>
 			<div id="services">
 				<div class="service-details">
@@ -136,7 +128,8 @@
 				<div class="service-details">
 					<!-- Cheap 2 icon by Icons8 -->
 					<img class="icons" src="https://maxcdn.icons8.com/iOS7/PNG/75/Ecommerce/cheap_2-75.png" title="Cheap 2" width="75">
-					<p class="icon-descript">Our prices are very affordable and <br> our products have exception value. </p>
+					<p class="icon-descript">We find the best flowers and products to bring you the best value. Our prices are a reflection of this commitment
+						to our customers.</p>
 				</div>
 				<div class="service-details">
 					<!-- Good Quality icon by Icons8 -->
@@ -148,26 +141,50 @@
 		<div id="contactContainer">
 			<h1 class="header">CONTACT</h1>
 			<div id="contact">
+				<p id="contact-blurb"> If you would like us to help you with your floral needs, please feel free to call, message or come visit us. We look
+					forward to hearing from you.</p>
 				<div id="map"></div>
 				<div class="contactAreaInfo">
-					<form>
-						Name:<br>
-						<input id="name" type="text" placeholder="John Doe">
-						Email:<br> 
-						<input id="email" type="type" placeholder="johndoe@blank.com">
-						Message:<br>
-						<textarea id="message" placeholder="your message"></textarea>
-						<input type="button" value="SEND">
-					</form>
+					<div class="info">
+						<form>
+							Name:<br>
+							<input id="name" type="text" placeholder="John Doe"> Email:
+							<br>
+							<input id="email" type="type" placeholder="johndoe@blank.com"> Message:
+							<br>
+							<textarea id="message" placeholder="your message"></textarea>
+							<input type="button" value="SEND">
+						</form>
+					</div>
+					<div class="separator"></div>
+					<div class="business-info">
+						<ul class="fa-ul">
+							<li><i class="fa-li fa fa-map-marker fa-stack-lg " aria-hidden="true"></i>12345 Main Street Suffolk, VA 23433 </li>
+							<li><i class="fa-li fa fa-phone fa-stack-lg " aria-hidden="true"></i>(757) 555-1212</li>
+						</ul>
+						<div class="business-hours">
+							<h2 class="title">Hours</h2>
+							<ul class="list-unstyled opening-hours">
+								<li>Sunday <span class="pull-right">Closed</span></li>
+								<li>Monday <span class="pull-right">9:00-5:00</span></li>
+								<li>Tuesday <span class="pull-right">9:00-5:00</span></li>
+								<li>Wednesday <span class="pull-right"> 9:00-5:00</span></li>
+								<li>Thursday <span class="pull-right">9:00-5:00</span></li>
+								<li>Friday <span class="pull-right">9:00-5:00</span></li>
+								<li>Saturday <span class="pull-right">9:00-5:00</span></li>
+							</ul>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<footer>Website Created by AMJ Webservices <a href="https://icons8.com">Icon pack by Icons8</a></footer>
+	<footer>Website Created by <span><a href="https://www.angiemjohnson.com">AMJ Webservices</span>;<span id=icons><a href="https://icons8.com">Icon Pack by Icons8</a></span></footer>
 	<script src="./js/main.js"></script>
-	<script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1FObEr9zAI9lk2uJoRffyK6ioqeVBkpU&callback=initMap">
-    </script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1FObEr9zAI9lk2uJoRffyK6ioqeVBkpU&callback=initMap">
+
+	</script>
 </body>
 
 </html>

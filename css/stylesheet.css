@@ -10,7 +10,7 @@ body {
 .background {
 	position: fixed;
 	background-repeat: no-repeat;
-	background-size:cover;
+	background-attachment:fixed;
 	background-size: cover;
 	top: 0;
 	left: 0;

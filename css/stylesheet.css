@@ -15,6 +15,7 @@ body {
 .background {
 	position:fixed;
 	background-repeat: no-repeat;
+	background-attachment:fixed;
 	background-position:center;
 	background-size:cover;
 	top: 0;

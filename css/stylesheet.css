@@ -15,7 +15,7 @@ body {
 	top: 0;
 	left: 0;
 	max-width: 100%;
-	height: auto;
+	height: 100%;
 	filter: alpha(opacity=70);
 	opacity: .6;
 	z-index: -1;

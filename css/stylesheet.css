@@ -30,6 +30,7 @@ body {
 	right: 0;
 	bottom: 0;
 	background-color: transparent;
+	z-index: 1;
 }
 .nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
 	background-color: transparent;

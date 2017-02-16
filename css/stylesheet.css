@@ -14,7 +14,7 @@ overflow-x: hidden;
 
 .background {
 	position: fixed;
-	background-image: url("/images/roses_in_a_tub.png");
+	background-image: url("http://res.cloudinary.com/angiemjohnson/image/upload/c_scale,w_3871/v1477667135/photo-1464885602181-3d7835717ec1_hnkzmd.PNG");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;

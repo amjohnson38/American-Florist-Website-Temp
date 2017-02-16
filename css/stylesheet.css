@@ -16,7 +16,7 @@ body {
 	-o-background-size:cover;
 	top: 0;
 	left: 0;
-	height: 100%;
+	height: auto;
 	opacity: .6;
 	z-index: -1;
 }

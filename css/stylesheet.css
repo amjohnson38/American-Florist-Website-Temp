@@ -7,6 +7,14 @@ body {
 	-webkit-flex-direction: column;
 	flex-direction: column;
 }
+
+#home{
+	display:flex;
+	display:-webkit-flex;
+	-webkit-flex-direction:column;
+	flex-direction:column;
+}
+	
 .background {
 	background-repeat: no-repeat;
 	background-attachment:fixed;

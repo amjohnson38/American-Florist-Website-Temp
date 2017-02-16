@@ -7,6 +7,9 @@ body {
 	-webkit-flex-direction: column;
 	flex-direction: column;
 }
+#home { 
+	display:flex;
+}
 	
 .background {
 	position:relative;

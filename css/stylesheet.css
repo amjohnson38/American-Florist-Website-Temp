@@ -11,10 +11,9 @@ body {
 	position: fixed;
 	background-repeat: no-repeat;
 	background-attachment:fixed;
-	background-size: cover;
+	background-size:100%;
 	top: 0;
 	left: 0;
-	width: auto;
 	height: 100%;
 	filter: alpha(opacity=70);
 	opacity: .6;

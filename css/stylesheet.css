@@ -1,5 +1,5 @@
 body {
-	background: url("https://res.cloudinary.com/angiemjohnson/image/upload/c_scale,w_1276/v1477667135/photo-1464885602181-3d7835717ec1_hnkzmd.png");
+	background: url("https://res.cloudinary.com/angiemjohnson/image/upload/c_scale,w_1276/v1477667135/photo-1464885602181-3d7835717ec1_hnkzmd.png"); no-repeat center fixed;
 	overflow-x: hidden;
 	width:100%;
 	height:100%;

@@ -1,8 +1,5 @@
 body {
 	overflow - x: hidden;
-	margin: 0;
-	height: 100 vh;
-	width: 100 vw;
 }
 .site - wrapper {
 	display: -webkit - flex;

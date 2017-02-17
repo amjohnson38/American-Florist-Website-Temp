@@ -8,8 +8,8 @@ body {
 	display: flex;
     flex-direction: column;
     justify-content: flex-start; /* align items in Main Axis */
-    align-items: stretch; /* align items in Cross Axis */
-    align-content: stretch; /* Extra space in Cross Axis */
+    align-items: center; /* align items in Cross Axis */
+    align-content: center; /* Extra space in Cross Axis */
 }
 .site-wrapper {
 	display: -webkit-flex;

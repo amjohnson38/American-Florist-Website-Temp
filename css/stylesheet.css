@@ -33,9 +33,6 @@ body{
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	-o-background-size:cover;
 	top: 0;
 	left: 0;
 	max-width:1381px;
@@ -401,7 +398,7 @@ h3 {
 	border:5px solid #8e9f90;
 	margin: 20px;
 	width:190px;
-	height:70px;
+	height:80px;
 	font-family: OpenSans;
 	text-shadow: 1px 1px #000;
 }

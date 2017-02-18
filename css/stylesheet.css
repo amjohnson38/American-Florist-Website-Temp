@@ -15,9 +15,11 @@ body{
    flex-direction: column; 
    max-width: 1381px;
    width:100%
-   
-}
 
+}
+.gutter {
+	background:green;
+}
 
 .background {
 	position: static;
@@ -400,7 +402,7 @@ h3 {
 
 #aboutContainer{
 	display: -webkit-flex;
-   display: flex; 
+   display: flex;  
 }
 
 #about{

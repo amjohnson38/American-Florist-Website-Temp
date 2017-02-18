@@ -14,7 +14,7 @@ body{
    -webkit-flex-direction: column;
    flex-direction: column; 
    max-width: 1381px;
-   width:100%
+   width:100%;
 
 }
 .gutter {

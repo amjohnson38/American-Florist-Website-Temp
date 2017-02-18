@@ -38,6 +38,7 @@ body{
 	position: fixed;
 	max-width: 1381px;
 	z-index: -10;
+	width:100vw;
 }
 
 

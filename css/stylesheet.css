@@ -6,15 +6,15 @@ body{
 	display:-webkit-flex;
 	-webkit-justify-content: center;
 	justify-content: center;
-	width:100vw;
-}
+	width: 100vw;
+} 
 .site-wrapper{
 	display: -webkit-flex;
    display: flex;
    -webkit-flex-direction: column;
    flex-direction: column; 
    max-width: 1381px;
-   width:100%;
+   width: 100%;
 
 }
 .gutter {
@@ -402,16 +402,16 @@ h3 {
 
 #aboutContainer{
 	display: -webkit-flex;
-   display: flex;  
-	width:100vw;
-	max-width:1381px;
+         display: flex;  
+	width: 100vw;
+	max-width: 1381px;
 }
 
 #about{
 	background: whitesmoke;
 	width: 100%;
 	display: flex;
-    flex-direction: column;
+        flex-direction: column;
 	margin-top: 450px;
 	
 }

@@ -13,12 +13,11 @@ body{
    display: flex;
    -webkit-flex-direction: column;
    flex-direction: column; 
-   max-width: 1381px;
-	width:100%;
-
+   
 }
-.gutter {
-	background:green;
+.width-for-kids{
+	max-width: 1381px;
+   width:100%
 }
 
 .background {

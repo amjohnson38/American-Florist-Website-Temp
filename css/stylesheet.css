@@ -398,7 +398,9 @@ h3 {
 
 #aboutContainer{
 	display: -webkit-flex;
-   display: flex;   
+   display: flex; 
+	max-width:1381px;
+	width:100%;
 }
 
 #about{

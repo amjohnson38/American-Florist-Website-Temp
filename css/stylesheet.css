@@ -1,6 +1,11 @@
+html,
 body{
+	width:100vw;
+	margin: 0px;
+	padding:0px;
 	overflow-x: hidden;
 }
+
 #site-container{
 	display:flex;
 	display:-webkit-flex;

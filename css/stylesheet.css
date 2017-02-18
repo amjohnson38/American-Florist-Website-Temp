@@ -35,7 +35,6 @@ body{
 #home{
 	position: fixed;
 	max-width: 1381px;
-	width: 100%;
 	z-index: -10;
 }
 

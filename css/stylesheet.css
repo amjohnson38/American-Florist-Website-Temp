@@ -15,10 +15,7 @@ body{
    flex-direction: column; 
    
 }
-.width-for-kids{
-	max-width: 1381px;
-   width:100%
-}
+
 
 .background {
 	position: static;
@@ -388,7 +385,7 @@ h3 {
 	font-size:2em;
 	border:5px solid #8e9f90;
 	margin: 20px;
-	width:200px;
+	width:100px;
 	height:100px;
 	font-family: OpenSans;
 	text-shadow: 1px 1px #000;
